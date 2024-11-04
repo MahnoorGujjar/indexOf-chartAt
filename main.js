@@ -188,13 +188,223 @@
 
 
 
-let password = 'mysecretpaswword';
+// let password = 'mysecretpaswword';
 
-let firstChar = password.charAt(0);
+// if(isNaN(password.charAt(0))){
 
-if(firstChar == password){
-    
-    document.write("verified")
-}else{
-    document.write("password must be start with latter")
-}
+//     document.write("<br>" , "password verified!" , "<br>")
+// }
+
+// else{
+//     document.write("<br>" , "password must start with a latter", "<br>")
+// }
+
+
+
+                //////////////................../////////////////...................../////////////////// 
+
+
+
+// let str = "hello world javascript";
+// console.log(str);
+// console.log(str.indexOf('world'));
+
+
+// OUTPUT ............ 6
+
+
+
+                //////////////................../////////////////...................../////////////////// 
+
+
+
+// jab hmre pas ek jse ek ya ek s zyadah same words honge to woh last ka detect kr k uska ndex dega hmen 
+
+
+// let str = "hello world javascript world";
+// console.log(str);
+// console.log(str.indexOf('world'));
+
+
+// OUTPUT ............ 23
+
+
+
+                //////////////................../////////////////...................../////////////////// 
+
+
+
+
+// TO STRING ...................
+
+
+// let num = 56 ;
+// console.log(num);
+// console.log(num.toString());
+
+
+// output hamara 56 hi rhega lkn backand pr wh as a string kam k rha hga 
+
+
+
+
+                //////////////................../////////////////...................../////////////////// 
+
+
+
+
+// let bool = false
+
+// console.log(bool);
+
+// console.log(bool.toString());
+
+
+// OUTPUT .............. false false
+
+
+
+                //////////////................../////////////////...................../////////////////// 
+
+
+// let fruit = [ " apple" , "banana" , "cherry"];
+
+// console.log(fruit);
+
+// console.log(fruit.toString());
+
+
+// OUTPUT .................. 
+// (3) [' apple', 'banana', 'cherry']
+// main.js:258  apple,banana,cherry
+
+
+
+
+                //////////////................../////////////////...................../////////////////// 
+
+
+
+
+// let veggies = [ "potato" , "tomato"];
+// let fruits = ["banana" , "water melon"];
+// let packageFruit = ["nuggets", "fries"];
+
+// document.write(vaggies + fruits + packageFruit)//////////////////
+
+// let shopList = fruits.concat(veggies,packageFruit)
+
+// console.log(shopList);
+
+// console.log(fruits); //////////////////////
+
+
+// OUTPUT ............
+
+// 0"banana"
+// 1"water melon"
+// 2"potato"
+// 3"tomato"
+// 4"nuggets"
+// 5"fries"
+// length 6
+
+
+                //////////////................../////////////////...................../////////////////// 
+
+
+
+// let greet = "Assalam u alaikum"
+// let name = prompt['what is your name'];
+// let gender = prompt['what is your gender']
+
+// gender = gender.toLowerCase();
+
+// // let arr = greet.concat(name)
+
+// if (gender =="female"){
+//     document.write("ma'am" , arr )
+// } else if (gender == "male" ) {
+//     document.write(greet.concat , "sir" , arr)
+// }
+
+// change 
+
+
+
+
+                //////////////................../////////////////...................../////////////////// 
+
+
+
+// MUTABLE ...........................................
+
+
+// let vehicle = [ "car" , "cycle" , "airplane"]
+
+// console.log(vehicle);
+
+// vehicle[0] = "bus"
+
+// 0"bus"
+// 1"cycle"
+// 2"airplane"
+// length 3
+
+
+// console.log(vehicle);
+
+// 0"bus"
+// 1"cycle"
+// 2 "airplane"
+// length 3
+
+
+
+// IMMUTABLE .............................................................................................
+
+
+
+// let language = "javascript";
+// language [0] = 'g'
+// console.log(language);
+
+
+// yahan change nh hga qk yh immutable 
+
+
+
+
+
+// REPLACE ...................................................................................................
+
+
+
+
+// let str = 'javascript'
+
+// console.log(str.replace("java" , "gava"));
+
+
+// OUTPUT ............... gavascript
+
+
+
+                //////////////................../////////////////...................../////////////////// 
+
+
+
+
+
+// REPLACE ALL ...................................
+
+
+
+// let str = "hello world war II  , welcome to our world war II"
+
+
+// console.log(str.replaceAll('world war ' , 'second world war'));
+
+
+
+// oOUTPUT ................................... hello second world warII  , welcome to our second world warII
