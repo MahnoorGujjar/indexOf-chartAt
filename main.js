@@ -408,3 +408,125 @@
 
 
 // oOUTPUT ................................... hello second world warII  , welcome to our second world warII
+
+
+
+
+
+
+
+
+     // Mutab
+    // Jab kisi variable ya object ko "mutable" kaha jata hai,
+     //  iska matlab hai ke uska value change kiya ja sakta hai. Aise data types ko modify kiya ja sakta hai without creating a new instance.
+
+
+
+// Mutable
+
+
+//  let str = "javascrpit";
+
+//  console.log(str.replace("j" , "g"));
+
+// output .......... gavascrpit
+
+
+
+                  //////////////................../////////////////...................../////////////////// 
+
+
+
+
+// IMMMUTABLE 
+
+// string immutable he is liye yahan changes nhi hongi
+
+// let str = "javascript" ;
+// str[0] = "g"
+// console.log(str);
+
+
+
+
+                  //////////////................../////////////////...................../////////////////// 
+
+
+
+
+// let text = "javaScript is a versatile programming javascript language that powers the javascript web used for both javascript 
+// front-end an back-end  javascript development, making it  
+// javascript a fundamental tool for building javascript interactive websites javascript and web applications 
+// javascript . At its core, JavaScript is a scripting language that runs in the  javascript browser, allowing developers  javascript to manipulate web page content dynamically";
+
+// console.log(text);
+
+
+// javaScript is a versatile programming javascript language that powers the javascript web used 
+// for both javascript front-end an back-end  javascript development, making it  javascript a fundamental tool 
+// for building javascript interactive websites javascript and web applications javascript . At its core, 
+// JavaScript is a scripting language that runs in the  javascript browser, allowing developers  javascript to manipulate web page content dynamically
+
+
+
+
+
+// AFTER REPLACE 
+
+
+// jahan jahan javascript hga wh remove ho jyega shuru ka ek chhorh kr
+
+
+
+
+// console.log(text.replaceAll("javascript" , " "));
+
+
+// javaScript is a versatile programming      language that powers the     web used for both      front-end an back-end       development,
+//  making it       a fundamental tool for building      interactive websites
+//      and web applications     . At its core, JavaScript is a scripting language that runs in the 
+//         browser, allowing developers    to manipulate web page content dynamically
+
+
+
+                  //////////////................../////////////////...................../////////////////// 
+
+
+
+// .......................................................GLOBAL REPLACE ...........................................................................
+
+
+
+
+
+// Global Replace Example:
+// If you want to replace all occurrences of a substring in a string, you can use the global flag (g) in a regular expression.
+
+
+// let str = "I love JavaScript. JavaScript is awesome!";
+// let newStr = str.replace(/JavaScript/g, "JS");
+
+
+//output ...................
+
+
+// console.log(newStr);  // Output: "I love JS. JS is awesome!"
+
+
+
+// let str = "JavaScript is fun, javascript is great!";
+// let newStr = str.replace(/javascript/gi, "JS");
+// console.log(newStr);  // Output: "JS is fun, JS is great!"
+
+
+
+
+// let str = "Hello World!";
+// let newStr = str.replace(/ /g, "_");
+// console.log(newStr);  // Output: "Hello_World!"
+
+
+
+
+
+
